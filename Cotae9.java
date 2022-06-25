@@ -13,7 +13,7 @@ class Solution {
     }
 }
 
-public class Cotae {
+public class Cotae9 {
     public static void main(String[] args) {
         Solution solution = new Solution();
 
