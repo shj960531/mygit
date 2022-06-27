@@ -1,4 +1,4 @@
-import java.util.*; // util 클래스 안에 있는 모든걸 import 한다
+import java.util.*; // util 디렉토리 안에 있는 모든 클래스를 import 한다
 
 class Solution {
     public int[] solution(int[] arr, int divisor) {
