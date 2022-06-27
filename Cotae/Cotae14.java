@@ -7,13 +7,13 @@ class Solution {
 
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] % divisor == 0) hi.add(arr[i]); // arr 배열에 원소를 divisor 로 나누었을때 나머지가 0인 원소 hi에 추가
-            }
+        }
         if (hi.isEmpty()) {
             hi.add(-1); // 추가된 원소가 없어서 hi가 비어있을땐 -1 추가
         }
         answer = new int[hi.size()]; // answer 를 hi 의 size 만큼 설정
 
-        for(int i=0; i<hi.size(); i++) {
+        for (int i = 0; i < hi.size(); i++) {
             answer[i] = hi.get(i); // hi 에 있는 원소들을 get 으로 꺼내어 answer 에 저장
         }
 
