@@ -29,7 +29,7 @@ public class BoardController {
     }
 
     @PutMapping("/api/boards/{id}")
-    public Long updateBoard(@PathVariable Long id, @RequestBody BoardRequestDto requestDto) {
+    public Long updateBoard(@PathVariable Long id, @RequestParam BoardRequestDto requestDto) {
         return boardService.update(id, requestDto);
     }
 
